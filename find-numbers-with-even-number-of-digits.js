@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+// Input: nums = [12,345,2,6,7896]
+// Output: 2
 
 var findNumbers = function(nums) {
     return nums.reduce((ac, el)=>{

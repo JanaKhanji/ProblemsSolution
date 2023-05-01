@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/roman-to-integer/
+// Input: s = "MCMXCIV"
+// Output: 1994
 
 var romanToInt = function (s) {
     const chars = s.split("");
@@ -34,7 +36,3 @@ var romanCharToInt = function (c) {
             return 0;
     }
 };
-
-console.log(romanToInt("III"));
-console.log(romanToInt("LVIII"));
-console.log(romanToInt("MCMXCIV"));

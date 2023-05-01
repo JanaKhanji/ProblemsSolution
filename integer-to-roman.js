@@ -1,6 +1,8 @@
-// 
-// Not working yet
+// https://leetcode.com/problems/integer-to-roman/
+// Input: num = 58
+// Output: "LVIII"
 
+// Not working yet
 var intToRoman = function (num) {
     const iteration = num / 5;
     let rest = num % 5;
@@ -45,5 +47,3 @@ var intToRomanChar = function (c) {
         return null;
     }
 };
-  
-console.log(intToRoman(58));
