@@ -9,6 +9,7 @@ var intToRoman = function (num) {
   for (let i = 0; i < array.length; i++) {
     const element = array[array.length - i - 1];
     let rest = element % 5;
+    // get the digit from 1 to 3 or 6 to 8
     if (rest >= 1 && rest <= 3) {
       while (rest > 0) {
         roman.unshift(intToRomanChar(10 ** i));
@@ -17,6 +18,7 @@ var intToRoman = function (num) {
       if (element > 5) {
         roman.unshift(intToRomanChar(5 * 10 ** i));
       }
+    // get the digit for 4 and 9
     } else if (rest === 4) {
       if (element > 5) {
         roman.unshift(intToRomanChar(10 ** (i + 1)));
