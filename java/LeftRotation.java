@@ -1,7 +1,7 @@
 // https://www.hackerrank.com/challenges/array-left-rotation/problem
 import java.util.*;
 
-class Result {
+class LeftRotation {
 
     /*
      * Complete the 'rotateLeft' function below.

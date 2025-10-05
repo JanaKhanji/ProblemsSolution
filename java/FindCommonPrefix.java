@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/longest-common-prefix/
 
-class Result {
+class FindCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         boolean isCommon = true;
         int index = 0;
@@ -11,13 +11,12 @@ class Result {
             for(String el: strs) {
                 if (!el.startsWith(commonPrefix)) {
                     isCommon = false;
-                    commonPrefix = commonPrefix.substring(0, commonPrefix.length() - 1);
-                    break;
+                    return commonPrefix.substring(0, commonPrefix.length() - 1);
                 }
             }
             index++;
 
         }
         return commonPrefix;
-    }
+    }     
 }

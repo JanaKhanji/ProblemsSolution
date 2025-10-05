@@ -1,5 +1,5 @@
 // https://www.hackerrank.com/challenges/strong-password/problem
-class Result {
+class StrongPassword {
     /*
      * Complete the 'minimumNumber' function below.
      *
