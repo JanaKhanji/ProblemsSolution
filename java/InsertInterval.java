@@ -2,7 +2,7 @@
 
 
 // TODO
-public class InsertInterval {
+class InsertInterval {
     public static int[][] insertInterval(int[][] intervals, int[] newInterval) {
         int[][] results = new int
         for (int i = 0; i < intervals.length; i++) {

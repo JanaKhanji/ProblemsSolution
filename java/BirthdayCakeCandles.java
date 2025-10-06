@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-public class BirthdayCakeCandles {
+class BirthdayCakeCandles {
 
     public static int birthdayCakeCandles(List<Integer> candles) {
         Map<Integer, Integer> counts = new HashMap<>();

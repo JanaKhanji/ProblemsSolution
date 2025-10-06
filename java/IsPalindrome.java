@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/palindrome-number/
 
-public class IsPalindrome {
+class IsPalindrome {
     public static boolean isPalindrome(int x) {
     String str = String.valueOf(x);
 

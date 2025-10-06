@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Sum {
+class Sum {
 
     static int solveMeFirst(int a, int b) {
       return a + b;

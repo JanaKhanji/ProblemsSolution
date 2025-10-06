@@ -1,7 +1,7 @@
 // https://www.hackerrank.com/challenges/balanced-brackets/problem
 import java.util.*;
 
-public class BalancedBrackets {
+class BalancedBrackets {
     public static String isBalanced(String s) {
         Stack<Character> st = new Stack<>();
         for (char c : s.toCharArray()) {
