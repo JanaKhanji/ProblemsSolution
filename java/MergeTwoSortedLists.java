@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/merge-two-sorted-lists/
-import java.util.*;
 
 class MergeTwoSortedLists {
   public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
